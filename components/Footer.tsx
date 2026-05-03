@@ -26,13 +26,13 @@ export default function Footer() {
         className="flex flex-col items-center gap-4 text-center"
       >
         <p className="font-[family-name:var(--font-tech)] text-[#00ffc8] text-xs tracking-[0.5em] uppercase">
-          — hasta pronto —
+          — trae regalos —
         </p>
         <h2 className="font-[family-name:var(--font-vintage)] text-white text-[clamp(2rem,6vw,4rem)]">
-          Nos vemos pronto
+          Nos vemos en un rato
         </h2>
         <p className="font-[family-name:var(--font-vintage)] text-white/40 text-base md:text-lg italic max-w-sm">
-          &quot;Gracias por ser parte de este momento especial.&quot;
+          &quot;Gracias por ser parte de este día tan especial.&quot;
         </p>
       </motion.div>
 
