@@ -44,7 +44,7 @@ export default function Details() {
 
         <div className="text-center">
           <p className="font-[family-name:var(--font-tech)] text-white/40 text-[0.6rem] tracking-[0.4em] uppercase mb-1">hora</p>
-          <p className="font-[family-name:var(--font-vintage)] text-white/80 text-xl">8:00 PM</p>
+          <p className="font-[family-name:var(--font-vintage)] text-white/80 text-xl">7:00 PM</p>
         </div>
 
         <span className="text-[#c9a84c] hidden md:block">◆</span>
