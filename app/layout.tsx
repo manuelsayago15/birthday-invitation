@@ -1,11 +1,18 @@
 import type { Metadata } from "next";
-import { Share_Tech_Mono, Playfair_Display } from "next/font/google";
+import { Share_Tech_Mono, Playfair_Display, Space_Mono } from "next/font/google";
+
 import "./globals.css";
 
 const shareTechMono = Share_Tech_Mono({
   weight: "400",
   subsets: ["latin"],
   variable: "--font-tech",
+});
+
+const spaceMono = Space_Mono({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  variable: "--font-space",
 });
 
 const playfairDisplay = Playfair_Display({
@@ -29,7 +36,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`${shareTechMono.variable} ${playfairDisplay.variable} antialiased`}>
+      <body className={`${shareTechMono.variable} ${playfairDisplay.variable} ${spaceMono.variable} antialiased`}>
         {children}
       </body>
     </html>
