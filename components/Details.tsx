@@ -62,7 +62,7 @@ export default function Details() {
         transition={{ delay: 0.4 }}
         className="font-[family-name:var(--font-vintage)] text-white/40 text-base md:text-lg text-center max-w-md italic"
       >
-        &quot;Una fiesta para divertirnos obviamente y donde sabrás porqué eres importante para mí.&quot;
+        &quot;Vamos a celebrar, reírnos y que sepas por qué eres importante para mí.&quot;
       </motion.p>
 
       {/* Ornamento inferior */}
