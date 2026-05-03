@@ -23,6 +23,9 @@ const playfairDisplay = Playfair_Display({
 export const metadata: Metadata = {
   title: "You're invited 🎉",
   description: "Cumpleaños de Saya — 15 de mayo",
+  icons: {
+    icon: "/favicon.svg",
+  },
   openGraph: {
     title: "You're invited 🎉",
     description: "Cumpleaños de Saya — 15 de mayo",

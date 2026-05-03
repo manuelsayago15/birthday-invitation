@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const photos = [
-  { src: "/photos/photo1.jpg", alt: "Celebración 1" },
-  { src: "/photos/photo2.jpg", alt: "Celebración 2" },
-  { src: "/photos/photo3.jpg", alt: "Celebración 3" },
+  { src: "/photos/photo1.jpg", alt: "Celebración 1", position: "object-[center_20%]" },
+  { src: "/photos/photo2.jpg", alt: "Celebración 2", position: "object-center" },
+  { src: "/photos/photo3.jpg", alt: "Celebración 3", position: "object-center" },
 ];
 
 export default function Gallery() {
@@ -39,7 +39,7 @@ export default function Gallery() {
             src={photo.src}
             alt={photo.alt}
             fill
-            className="object-cover md:grayscale group-hover:grayscale-0 transition-[filter] duration-500 ease-in-out"
+            className={`object-cover ${photo.position} md:grayscale group-hover:grayscale-0 transition-[filter] duration-500 ease-in-out`}
         />
         </motion.div>
         ))}
